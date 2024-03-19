@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER kosmatrap (cmanumonnier@gmail.com)
+MAINTAINER kosmatrap  (cmanumonnier@gmail.com)
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx git
 RUN rm -Rf /var/www/html/*
